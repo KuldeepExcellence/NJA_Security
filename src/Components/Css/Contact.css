@@ -1,0 +1,65 @@
+.contact-banner{
+  background-image: url('../../picture/Rectangle 2 (1).png');
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+} 
+
+.inputfields {
+  background: #f5f5f514;
+  border: 2px solid #969595 !important;
+  font-size: 22px !important;
+  padding: 0.8em 0.5em;
+  border-radius: 8px;
+  height: 69px !important;
+  margin-bottom: -17px;
+ }
+ .contact-page-f input#exampleFormControlInput1 {
+  outline: none;
+  border-radius: 0;
+}
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  /* border-color: #86b7fe; */
+  outline: 0;
+  box-shadow: none !important;
+}
+button.contact-button {
+  padding: 10px 30px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: #B23C26;
+}
+h3.c-heading {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contact-now img {
+  margin-right: 20px;
+  width: 8%;
+  margin-bottom: 20px;
+  height: 35px;
+}
+p.address {
+  font-weight: 500;
+}
+a.mail {
+  font-size: 16px;
+  font-weight: 500;
+}
+@media (max-width:415px){
+  .contact-now img {
+    width: 10%;
+}
+}
+@media (max-width:350px){
+  .contact-now img {
+    width: 15%;
+}
+}

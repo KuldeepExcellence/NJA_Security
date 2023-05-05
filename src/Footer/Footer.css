@@ -1,0 +1,35 @@
+.logo h5 {
+    color: white;
+    margin-top: 20px;
+}
+.logo{
+    text-align: center;
+}
+h5.f-heading {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+ul.uselinks a {
+    color: white;
+    font-size: 15px;
+}
+ul.uselinks a li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+ul.uselinks a li i.bi {
+    margin-right: 10px;
+}
+
+ul.contact-links li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: white;
+}
+.logo img {
+    width: 45%;
+}
+.footer {
+    background: black;
+}
